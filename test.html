@@ -1,0 +1,19 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+  <script>
+  $(document).ready(function(){
+      $('#sortable').sortable({cancel: ':input,button,.contenteditable'});
+  });
+  </script>
+</head>
+<body>
+  <span id="sortable">
+    <p contenteditable="true" class="contenteditable">Brush teeth</p>
+    <p contenteditable="true" class="contenteditable">Comb hair</p>
+    <p contenteditable="true" class="contenteditable">Pick out outfit</p>
+	<p contenteditable="true" class="contenteditable">Put on shoes</p>
+  </span>
+</body>
+</html>
